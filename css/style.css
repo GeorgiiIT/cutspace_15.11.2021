@@ -268,8 +268,12 @@ body {
 .second-heading-offer{
 	font-size: 42px;
 	line-height: 1.5;
+	margin: 0;
 }
 .text-col-offer{
 	font-size: 16px;
 	line-height: 1.5;
+}
+.btn-offer{
+	margin-top: 7%;
 }
