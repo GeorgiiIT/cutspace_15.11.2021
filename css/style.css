@@ -570,6 +570,14 @@ body {
 		border-style: none;
 		margin-bottom: 0px;
 	}
+	.btn-white {
+    padding: 20px 31px;
+	 margin-top: 10px;
+}
+.btn-white::before {	
+    position: relative;
+    left: -7%;
+}
 	.reviews-heading {
 		margin: 30px 30px 5px 30px;
 	}
