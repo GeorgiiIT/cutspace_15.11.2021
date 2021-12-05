@@ -103,6 +103,11 @@ body {
   max-width: 50%;
   margin-left: -25%;
 }
+.text-offer{
+	line-height: 1.5;
+	letter-spacing: 1.15px;
+
+}
 .img-lake {
   margin-left: 5%;
 }
@@ -119,7 +124,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   margin: 0;
-  padding: 30px 0 0 92px;
+  padding: 20px 0 0 92px;
   line-height: 1.5;
   letter-spacing: 0.8px;
 }
@@ -131,7 +136,7 @@ body {
   letter-spacing: 1.15px;
 }
 .img-icon-small {
-  margin-bottom: -28%;
+  margin-bottom: -25%;
   margin-left: 8%;
 }
 .col-offer {
@@ -149,7 +154,7 @@ body {
   line-height: 1.5;
 }
 .btn-offer {
-  margin-top: 7%;
+  margin-top: 5%;
 }
 /*block product */
 .product-sect {
@@ -661,10 +666,33 @@ body {
 		margin-top: 0%;
 		margin-left: -8px;
 	}
-	.img-icon-small {
-		margin-bottom: -23%;
-		margin-left: 10%;
+	.callout-text{ 
+		display: flex;
+		flex-direction: column;
+		text-align: center;
 	}
+.img-icon-small {
+		position: relative;
+		max-width: 12%;
+		top: 19px;
+		left: 93px;
+}
+
+.heading-offer {
+		padding: 0;
+		margin-top: 80px;
+}
+.text-lake {
+		padding: 0;
+		margin-top: 10px;
+		margin-bottom: 20px;
+}
+.col-offer {
+		margin-left: 0;
+		margin-right: 0;
+		padding-right: 0;
+		text-align: center;
+}
 	.second-heading-offer {
 		font-size: 20px;
 		line-height: 1.5;
@@ -676,21 +704,10 @@ body {
 	.img-lake {
 		max-width: 100%;
 	}
-	.col-offer {
-		display: flex;
-		flex-direction: column;
-	}
 	.row-offer {
 		display: flex;
 		max-width: 100%;
 		align-items: center;
-	}
-	.col-offer {
-		display: flex;
-		flex-direction: column;
-		margin-left: 13%;
-		margin-right: 1px;
-		padding-right: 10px;
 	}
 	.img-offer {
 		position: relative;
@@ -887,6 +904,26 @@ body {
 		max-width: 100%;
 		align-items: center;
 	}
+	.callout-text{ 
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+}
+	.img-icon-small {
+		position: relative;
+		max-width: 12%;
+		top: 7px;
+    	left: 93px;
+}
+	.heading-offer {
+		padding: 0;
+		margin-top: 70px;
+}
+	.text-lake {
+		padding: 0;
+		margin-top: 10px;
+		margin-bottom: 20px;
+}
 	.second-heading-offer {
 		font-size: 20px;
 		line-height: 1.5;
@@ -901,6 +938,10 @@ body {
 	.col-offer {
 		display: flex;
 		flex-direction: column;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+		padding-right: 0;
 	}
 	.product-block {
 		background-image: url(../img/product-bg.jpg);
@@ -973,7 +1014,7 @@ body {
 		margin-bottom: 45px;
 	}
 	.heading-all-block {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.text-all-block {
 		font-size: 13px;
