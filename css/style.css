@@ -411,7 +411,7 @@ body {
   font-weight: 700;
   line-height: 27px;
   letter-spacing: 0.6px;
-  margin: 2px 150px 0px 30px;
+  margin: 2px 0px 0px 30px;
 }
 .feedback-video {
   max-width: 100%;
@@ -439,7 +439,7 @@ body {
 .icon-shape {
   position: absolute;
   bottom: 382px;
-  right: -37px;
+  right: -42px;
 }
 /* experience-block */
 .experience-sect {
@@ -788,8 +788,8 @@ body {
 	.icon-shape {
 		position: absolute;
 		max-width: 19%;
-		top: -22px;
-		right: -23px;
+		top: -31px;
+    	right: -30px;
 	}
 	.reviews-heading {
 		font-size: 16px;
